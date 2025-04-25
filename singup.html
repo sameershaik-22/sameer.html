@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title> signup page </title>
+        <style>
+            h2{ text-align:center;
+                   text-decoration:underline;}
+                   span{color:red;}
+                   body{background-color:pink;}
+                   form{ border:3px solid black;
+                padding: 30px; background-color:skyblue;}
+                label{font-size:20px;
+                font-style:italic;}
+                input{margin:5px 30px;}
+        </style>
+    </head>
+    <body>
+        <h2> <span>sign up form </span> </h2>
+        <form action="./landingpage.html" method="get">
+            <label>Full Name :</label>
+            <input type="text" name="fullname" required>
+            <br>
+            <label> age:</label>
+            <input type="number" name="age">
+            <br>
+           <label> email:</label>
+           <input type="email" name="email" required>             
+           <br>
+           <label> Gender </label>
+           <br>
+           <input type="radio" name="gender" required>
+           <label> Male </label><input type="radio" name="gender">
+           <label> Female </label>
+           <br>
+           <label> hobbies :</label>
+           <input type="checkbox" name="hobbies" required>
+           <label> music</label>
+           <input type="checkbox" name="hobbies" required>
+           <label> cricket </label>
+           <br>
+           <label> Branch : </label>
+           <select name="branch">
+            <option value=""> select </option>
+            <option> cse </option>
+            <option> ds</option>
+            <option> Aiml </option>
+           </select>
+           <br>
+           <input type="submit" value="singup">
+           <input type="reset" value="clear">
+
+           
+          
+
+        </form>
+    </body>
+</html>
